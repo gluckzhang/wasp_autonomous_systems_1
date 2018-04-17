@@ -36,8 +36,8 @@ settings.sigma_gyro_bias = 0.01*pi/180; % [rad/s^1.5]
 % GNSS position measurement noise covariance (R)
 % Standard deviations, need to be squared
 settings.sigma_gps = 3/sqrt(3); %[m] 
-settings.sigma_speed = 25; %[m/s]  Trim here
-settings.sigma_non_holonomic = 3; %[m/s] Trim here
+settings.sigma_speed = 0.21; %[m/s]  Trim here
+settings.sigma_non_holonomic = 7.47; %[m/s] Trim here
 
 
 % Initial Kalman filter uncertainties (standard deviations)  
